@@ -7,7 +7,7 @@ app.use(express.json());
 app.use("/user", userRoute);
 
 app.use("/", (req, res) => {
-  return res.send("Welcome to my backend!");
+  return res.send("Welcome to my backend! For Ca 2 :)");
 });
 
 app.listen(port, () => {
